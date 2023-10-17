@@ -132,3 +132,12 @@ while 5 in list:
     list.remove(5)
 
 print(list)
+
+fruits = ["apple", "banana", "cherry", "kivi", "mango"]
+
+result = []
+
+for fruit in fruits:
+    if 'a' in fruit:
+        result.append(fruit)
+print(result)
