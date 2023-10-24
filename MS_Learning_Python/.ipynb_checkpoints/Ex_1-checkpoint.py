@@ -69,4 +69,3 @@ print(Todaysdate)
 # print("Todays's date is: " + Todaysdate) #The will throw error. We need to convert the date into a string.
 
 print("Today's date is: " + str(Todaysdate))
-
