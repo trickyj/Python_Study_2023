@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('build') {
+      steps {
+        sh 'docker build -f curriculm-front/Dockerfile .'
+      }
+    }
+
   }
 }
