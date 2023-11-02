@@ -15,7 +15,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'docker build -f Python_Study_2023/Dockerfile .'
+        sh 'docker build -f Python_Study_2023/DockerFile .'
       }
     }
 
